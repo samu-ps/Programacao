@@ -10,9 +10,9 @@ def main(page: ft.Page):
 
     # função soma e sub
     def soma():
-        idade.value = idade.value+1
+        idade.value = int(idade.value+1)
     def sub():
-        idade.value = idade.value-1
+        idade.value = int(idade.value-1)
     
 
     # page style
